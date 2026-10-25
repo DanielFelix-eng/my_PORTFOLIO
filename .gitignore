@@ -1,1 +1,10 @@
 node_modules/
+
+# Build artifacts
+client/dist/
+client/.vite/
+
+# Environment
+.env
+.env.local
+.env.*.localclou

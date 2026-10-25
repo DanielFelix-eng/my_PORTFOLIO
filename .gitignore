@@ -7,4 +7,4 @@ client/.vite/
 # Environment
 .env
 .env.local
-.env.*.localclou
+.env.*.local

@@ -19,17 +19,6 @@ function ProjectCard({ project }) {
           <p>{project.shortDescription}</p>
         </div>
       </Link>
-      {project.videoUrl && (
-        <a
-          className="button button-secondary project-card-demo"
-          href={project.videoUrl}
-          target="_blank"
-          rel="noreferrer"
-          aria-label={`Watch ${project.title} demo video`}
-        >
-          Demo ↗
-        </a>
-      )}
     </article>
   )
 }
